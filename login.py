@@ -9,8 +9,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import seaborn as sns
-
-
+import mplcursors
+from matplotlib.ticker import FuncFormatter
 
 def main():
     win=Tk()
